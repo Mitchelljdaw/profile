@@ -1,0 +1,228 @@
+body{
+  font-family: 'Ubuntu', monospace;
+}
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+button:focus {outline:0 !important;}
+button{
+  text-overflow: ellipsis !important;
+}
+.navbar{
+  background-color: transparent;
+  height: 70px;
+  border: none;
+  z-index: 200;
+}
+
+.fa{
+  font-size: 25px;
+}
+
+.help{
+  font-size: 12px;
+}
+
+.websites{
+  border: none;
+  transition: .6s ease !important;
+  height: 500px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.container{
+  margin-bottom: 75px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+.code{
+  height:300px;
+  overflow: scroll;
+}
+.codeHead{
+  position: fixed;
+}
+#webPreview{
+  display: none;
+  padding-bottom: 20px;
+}
+#skillsDiv{
+  display:none;
+}
+.pageLinks{
+  transition: .6s ease !important;
+  text-decoration: none !important;
+  color: #B82601 !important;
+  font-size: 125px !important;
+}
+.pageLinks:hover{
+  text-decoration: none !important;
+  color: #B82601 !important;
+  font-size: 300px !important;
+  -webkit-transition: .6s ease !important;
+}
+.projectBtn a{
+color: white !important;
+}
+.projects{
+  display: none;
+}
+#footer{
+  border-top: solid 1px;
+  height: 100px;
+  margin-top: 70px;
+  display: none;
+}
+#copy{
+  color: #0E0B16;
+  font-size: 25px;
+}
+.navbar a{
+color: #0E0B16 !important;
+}
+
+.navbar-brand{
+font-size: 50px;
+}
+.headers{
+  color: #0E0B16;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #0E0B16;
+}
+#main{
+  position: fixed;
+  left:33%;
+  top:50%;
+  height: 50%;
+  width: 50%;
+  margin-top: 0;
+}
+#click:hover{
+   -webkit-transition: .6s ease;
+}
+#click{
+  transition: .6s ease;
+  height: 50%;
+  width: 75%;
+  background-color: #B82601;
+  color: #E7DFDD;
+  overflow-x: scroll;
+}
+.btn{
+  transition: .6s ease;
+  background-color: #B82601;
+  color: #E7DFDD;
+}
+#btn:hover{
+   -webkit-transition: .6s ease;
+}
+
+#main-hidden{
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  display: none;
+  width: 93%;
+  opacity: 0;
+  margin-left: 5%;
+}
+
+.raincover{
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  padding:0;
+  margin-top:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .7;
+  z-index: 4;
+  color:white;
+}
+#rainpicture{
+  width:200%;
+  height: 1200%;
+}
+#rainstoppingtext{
+  position: relative;
+  color:white;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .navbar-brand{
+  font-size: 35px;
+  }
+  .navbar{
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-mobile{
+    margin-top: -20px;
+  }
+  .javaBtn{
+    width: 100%;
+    text-overflow: ellipsis !important;
+  }
+  .projectBtn{
+    width: 100%;
+  }
+  #click{
+    width:90%;
+  }
+  .container{
+    font-size: 30px;
+    width: 100%;
+  }
+  .container-fluid{
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projectBtn{
+    width: 80%;
+  }
+  .javaBtn{
+    width: 80%;
+    text-overflow: ellipsis !important;
+  }
+  .navbar-brand{
+  font-size: 37px;
+  }
+  .navbar-mobile{
+    margin-top: -40px;
+    margin-left: 5%;
+    font-size: 30px;
+  }
+  .navbar{
+    align-items: center;
+    justify-content: center;
+  }
+  #main{
+    left:35%;
+  }
+}
